@@ -33,7 +33,7 @@ github_username:  yoiyoicho
 # Build settings
 #theme: minima
 # テーマをyatに変更 on April 18th 2022
-theme: jekyll-theme-yat
+remote_theme: "jeffreytse/jekyll-theme-yat"
 plugins:
   - jekyll-feed
 
