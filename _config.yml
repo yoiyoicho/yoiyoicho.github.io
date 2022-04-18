@@ -18,12 +18,10 @@
 # You can create any custom variable you would like, and they will be accessible
 # in the templates via {{ site.myvariable }}.
 
-title: Yoshino Minako's Website
-heading: Yoshino Minako's Website
-subheading: 未経験30代がWebエンジニア転職に挑戦中！
+title: YM's Tech Blog
 email: minakoyoshino3@gmail.com
 description: >- # this means to ignore newlines until "baseurl:"
-  Webエンジニア転職活動中のYoshinoさんのプログラミング学習記録を発信します。
+  Webエンジニア転職と個人開発の記録を発信します。
 baseurl: "" # the subpath of your site, e.g. /blog
 url: "http://yoiyoicho.github.io" # the base hostname & protocol for your site, e.g. http://example.com
 domain: yoiyoicho.github.io
@@ -34,8 +32,37 @@ github_username:  yoiyoicho
 #theme: minima
 # テーマをyatに変更 on April 18th 2022
 remote_theme: "jeffreytse/jekyll-theme-yat"
+
+copyright: "Copyright © 2022 Minako Yoshino"
+
+# Google analytics
+# google_analytics: [Tracking ID]
+
+# If you want to change site language, you can set lang option
+lang: "ja"  # default lang is en
+
+# Page default value
+defaults:
+  home:
+    heading: "YM's Tech Blog"
+    subheading: "Webエンジニア転職と個人開発の記録"
+    banner: "/assets/images/banners/home.jpeg"
+
+# Pagination setting
+paginate: 5
+
+# Build settings
+# highlighter: none
+markdown: kramdown
+kmarkdown:
+  input: GFM
+
 plugins:
   - jekyll-feed
+  - jekyll-seo-tag
+  - jekyll-sitemap
+  - jekyll-paginate
+  - jekyll-spaceship
 
 # Exclude from processing.
 # The following items will not be processed, by default.
