@@ -2,7 +2,7 @@
 layout: post
 title:  "JekyllとGitHub Pagesで静的サイトを作成してみた"
 date:   2022-04-18 16:55:56 +0900
-categories: jekyll ruby
+categories: Jekyll Ruby
 ---
 こんにちは。Webエンジニア転職を目指して学習＆個人開発中のYoshino（[@yoiyoicho](https://twitter.com/yoiyoicho)）です。
 
@@ -125,7 +125,7 @@ remote_theme: "jeffreytse/jekyll-theme-yat"
 
 コンソールで`bundle install`を実行。
 
-最初は、READ.meを流し読みして「Gem-based Theme Method」の方法で実装してしまっていたため、後述するGitHubへpushした際にエラーが出て詰まってしまいました。新しいものを使うとき、READ.meはよく読みましょう（反省点）。
+最初は、README.mdを流し読みして「Gem-based Theme Method」の方法で実装してしまっていたため、後述するGitHubへpushした際にエラーが出て詰まってしまいました。新しいものを使うとき、README.mdはよく読みましょう（反省点）。
 
 ## _config.ymlをカスタマイズ
 
