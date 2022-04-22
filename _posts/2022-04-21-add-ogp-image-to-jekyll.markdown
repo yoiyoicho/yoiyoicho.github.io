@@ -15,7 +15,7 @@ image: /images/AdobeStock_189570981.jpeg
 
 ## OGP（Open Graph Protocol）とは
 
-そのページの概要を明示するHTML要素で、WebページをSNSでシェアした際に使われます。
+そのページの概要を明示するHTML要素で、WebページをSNSでシェアしたときなどに使われます。
 
 例えばTwitterでは、このようなカード形式のリンクをよく見かけると思います。
 
@@ -35,25 +35,27 @@ image: /images/AdobeStock_189570981.jpeg
 <meta property="twitter:title" content="JekyllとGitHub Pagesで静的サイトを作成してみた" />
 {% endhighlight %}
 
-当サイトでは、初めからjekyll-seo-tagのプラグインを導入していたので、すでにog:titleやog:descriptionは自動生成されていました。
+当サイトでは、初めからjekyll-seo-tagのプラグインを導入していたので、og:titleやog:descriptionは自動生成される状態になっていました。
 
-今回はさらに、og:imageの設定を詳しく見ていきます。
+今回は、og:imageの設定を詳しく見ていきます。
 
 ## Twitterカードの画像を大きくするには？
 
-Twitterカードには大小があります。先ほどの例が小で、下が大です。
+Twitterカードはサイズが2種類あります。先ほどの例が小さいサイズで、下の例が大きいサイズです。
 
 ![](/images/ScreenShot 2022-04-22 10.56.37.png)
 
-ビジュアル的にインパクトがあるので、大きい方を表示させたほうがよいでしょう。
+大きい方が目立つので、こちらを表示させるように設定したほうがよいでしょう。
 
 [Twitter Developer Platformのドキュメント](https://developer.twitter.com/en/docs/twitter-for-websites/cards/overview/abouts-cards)を読むと、`<head></head>`内で、`<meta name="twitter:card" content="summary_large_image" />`と指定すれば画像が大きく表示されることがわかりました。
 
-さらに、jekyll-seo-tagプラグインのGitHubを確認すると、各ページでog:image要素を設定していれば、`<meta name="twitter:card" content="summary_large_image" />`を自動で吐き出すコードになっていることがわかりました。
+さらに、jekyll-seo-tagプラグインのGitHubを確認すると、各ページでog:image要素を設定していれば、`<meta name="twitter:card" content="summary_large_image" />`を自動で吐き出すコードになっているとわかります。
 
-## og:imageを記事毎に設定する
+## og:imageを記事ごとに設定する
 
-og:imageを設定するには、各記事のmarkdownファイルにimageの項を追加するだけ。
+続いて、各記事でog:imageを設定していきましょう。
+
+og:imageを指定するには、各記事のmarkdownファイルにimageの項を追加するだけ。
 
 {% highlight markdown %}
 ---
@@ -95,7 +97,7 @@ image: /images/AdobeStock_189570981.jpeg
 
 twitter:cardの項はsummary_large_imageになっており、og:image、twitter:imageの項も設定されています。
 
-[Twitter Card Validator](https://cards-dev.twitter.com/validator)でプレビューを確認します。
+本番環境にpushして、[Twitter Card Validator](https://cards-dev.twitter.com/validator)でプレビューを確認します。
 
 ![](/images/ScreenShot 2022-04-22 11.58.16.png)
 
@@ -110,6 +112,6 @@ twitter:cardの項はsummary_large_imageになっており、og:image、twitter:
 
 という設定にしたかったのですが、どうしてもyatとjekyll-seo-tagのあいだで衝突が起こってしまい、自力でhead.htmlを書き直すのもいやだったので、あきらめて各ページでogpイメージを設定することにしました。
 
-うーん、なんか65点くらいの仕上がりですね。うまい解決方法があったら教えてほしいです。
+自分としては65点くらいの仕上がりです。うまい解決方法があったら教えてほしいです。
 
 なお当ブログにはコメント機能がありませんので、ご指摘があればTwitter（[@yoiyoicho](https://twitter.com/yoiyoicho)）のDM宛にいただけると幸いです。
