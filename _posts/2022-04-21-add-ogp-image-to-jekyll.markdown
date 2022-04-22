@@ -6,11 +6,12 @@ categories: Tech
 tags: [Jekyll, Twitter]
 image: /images/AdobeStock_189570981.jpeg
 ---
-![](/images/AdobeStock_189570981.jpeg)
 
 こんにちはYoshino（[@yoiyoicho](https://twitter.com/yoiyoicho)）です。つよいエンジニアになりたいという想いをこめて、アイコンをシャチのイラストに変更しました。モノクロだから、どんなデザインにもマッチしそうだしね。
 
 さて、今回はブログをSNSにシェアする際に必須の「OGP（Open Graph Protocol）」をJekyllサイトに導入していきます。
+
+![](/images/AdobeStock_189570981.jpeg)
 
 ## OGP（Open Graph Protocol）とは
 
@@ -76,19 +77,19 @@ image: /images/AdobeStock_189570981.jpeg
 <meta property="og:title" content="SNSシェアで必須のOGPイメージをJekyllサイトに設定してみた" />
 <meta name="author" content="Minako Yoshino" />
 <meta property="og:locale" content="ja" />
-<meta name="description" content="Webエンジニア転職と個人開発の記録を発信します。" />
-<meta property="og:description" content="Webエンジニア転職と個人開発の記録を発信します。" />
-<link rel="canonical" href="http://yoiyoicho.github.io/tech/2022/04/22/add-ogp-image-to-jekyll.html" />
-<meta property="og:url" content="http://yoiyoicho.github.io/tech/2022/04/22/add-ogp-image-to-jekyll.html" />
+<meta name="description" content="こんにちはYoshino（@yoiyoicho）です。つよいエンジニアになりたいという想いをこめて、アイコンをシャチのイラストに変更しました。モノクロだから、どんなデザインにもマッチしそうだしね。" />
+<meta property="og:description" content="こんにちはYoshino（@yoiyoicho）です。つよいエンジニアになりたいという想いをこめて、アイコンをシャチのイラストに変更しました。モノクロだから、どんなデザインにもマッチしそうだしね。" />
+<link rel="canonical" href="http://localhost:4000/tech/2022/04/22/add-ogp-image-to-jekyll.html" />
+<meta property="og:url" content="http://localhost:4000/tech/2022/04/22/add-ogp-image-to-jekyll.html" />
 <meta property="og:site_name" content="MY’s Tech Blog" />
-<meta property="og:image" content="http://yoiyoicho.github.io/images/AdobeStock_189570981.jpeg" />
+<meta property="og:image" content="http://localhost:4000/images/AdobeStock_189570981.jpeg" />
 <meta property="og:type" content="article" />
 <meta property="article:published_time" content="2022-04-22T10:30:00+09:00" />
 <meta name="twitter:card" content="summary_large_image" />
-<meta property="twitter:image" content="http://yoiyoicho.github.io/images/AdobeStock_189570981.jpeg" />
+<meta property="twitter:image" content="http://localhost:4000/images/AdobeStock_189570981.jpeg" />
 <meta property="twitter:title" content="SNSシェアで必須のOGPイメージをJekyllサイトに設定してみた" />
 <script type="application/ld+json">
-{"@context":"https://schema.org","@type":"BlogPosting","author":{"@type":"Person","name":"Minako Yoshino"},"dateModified":"2022-04-22T10:30:00+09:00","datePublished":"2022-04-22T10:30:00+09:00","description":"Webエンジニア転職と個人開発の記録を発信します。","headline":"SNSシェアで必須のOGPイメージをJekyllサイトに設定してみた","image":"http://yoiyoicho.github.io/images/AdobeStock_189570981.jpeg","mainEntityOfPage":{"@type":"WebPage","@id":"http://yoiyoicho.github.io/tech/2022/04/22/add-ogp-image-to-jekyll.html"},"url":"http://yoiyoicho.github.io/tech/2022/04/22/add-ogp-image-to-jekyll.html"}</script>
+{"@context":"https://schema.org","@type":"BlogPosting","author":{"@type":"Person","name":"Minako Yoshino"},"dateModified":"2022-04-22T10:30:00+09:00","datePublished":"2022-04-22T10:30:00+09:00","description":"こんにちはYoshino（@yoiyoicho）です。つよいエンジニアになりたいという想いをこめて、アイコンをシャチのイラストに変更しました。モノクロだから、どんなデザインにもマッチしそうだしね。","headline":"SNSシェアで必須のOGPイメージをJekyllサイトに設定してみた","image":"http://localhost:4000/images/AdobeStock_189570981.jpeg","mainEntityOfPage":{"@type":"WebPage","@id":"http://localhost:4000/tech/2022/04/22/add-ogp-image-to-jekyll.html"},"url":"http://localhost:4000/tech/2022/04/22/add-ogp-image-to-jekyll.html"}</script>
 <!-- End Jekyll SEO tag -->
 {% endhighlight %}
 
