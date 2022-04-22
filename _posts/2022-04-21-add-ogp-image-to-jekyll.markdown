@@ -97,7 +97,7 @@ twitter:cardの項はsummary_large_imageになっており、og:image、twitter:
 
 [Twitter Card Validator](https://cards-dev.twitter.com/validator)でプレビューを確認します。
 
-![](/images/ScreenShot 2022-04-21 10.01.52.png)
+![](/images/ScreenShot 2022-04-22 11.58.16.png)
 
 いい感じですね。
 
