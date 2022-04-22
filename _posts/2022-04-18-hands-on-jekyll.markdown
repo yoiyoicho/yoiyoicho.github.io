@@ -2,7 +2,9 @@
 layout: post
 title:  "JekyllとGitHub Pagesで静的サイトを作成してみた"
 date:   2022-04-18 16:55:56 +0900
-categories: Jekyll Ruby
+categories: Tech
+tags: [Jekyll, Ruby]
+image: /assets/images/banners/home.jpeg
 ---
 こんにちは。Webエンジニア転職を目指して学習＆個人開発中のYoshino（[@yoiyoicho](https://twitter.com/yoiyoicho)）です。
 

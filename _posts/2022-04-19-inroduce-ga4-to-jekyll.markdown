@@ -2,7 +2,9 @@
 layout: post
 title:  "Google Analytics 4（GA4）をJekyllサイトに導入してみた"
 date:   2022-04-19 11:17:00 +0900
-categories: Jekyll GA4
+categories: Tech
+tags: [Jekyll, GA4]
+image: /assets/images/banners/home.jpeg
 ---
 念願の個人ブログを開設することができ、テンションブチ上がり中のYoshino（[@yoiyoicho](https://twitter.com/yoiyoicho)）です。
 
@@ -34,7 +36,7 @@ google_analytics: [G-から始まる測定ID]
 
 そして、ローカルでサーバーを立ち上げてページビューを発生させました。が、GA4側はうんともすんとも。まるで無風です。yatのリポジトリにあるGA関係のソースコードがまだUA仕様になっているようで、うまく機能しません。
 
-![](/images/スクリーンショット 2022-04-19 10.18.42.png)
+![](/images/ScreenShot 2022-04-19 10.18.42.png)
 
 ## _includes/extensions/google-analytics.htmlを上書きする
 
@@ -80,7 +82,7 @@ yatのGitHubを確認し、GAに関するソースコードは`_includes/extensi
 
 設定が終わったら、GitHubにpush。
 
-![](/images/スクリーンショット 2022-04-19 11.06.27.png)
+![](/images/ScreenShot 2022-04-19 11.06.27.png)
 
 GA4でアクセスが確かめられました。スマホでサイトを開いていたので、今いる場所がばばーんと表示されていてびっくり。
 

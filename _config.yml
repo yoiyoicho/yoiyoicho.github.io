@@ -35,8 +35,6 @@ description: >- # this means to ignore newlines until "baseurl:"
 baseurl: "" # the subpath of your site, e.g. /blog
 url: "https://yoiyoicho.github.io" # the base hostname & protocol for your site, e.g. http://example.com
 domain: yoiyoicho.github.io
-twitter_username: yoiyoicho
-github_username:  yoiyoicho
 
 # Google analytics
 google_analytics: G-YHG6PKBK5C
@@ -48,14 +46,17 @@ sitemap: true
 lang: "ja"  # default lang is en
 
 # Page default value
+#defaults:
+#  - scope:
+#      path: ""
+#    values:
+#      image: /assets/images/banners/home.jpeg
+
 defaults:
   home:
     heading: "MY's Tech Blog"
     subheading: "Webエンジニア転職と個人開発の記録"
     banner: "/assets/images/banners/home.jpeg"
-
-# Pagination setting
-paginate: 5
 
 # Build settings
 # highlighter: none
