@@ -4,7 +4,7 @@ title: "RUNTEQ生活折り返し！ 前半4か月でやったことまとめ"
 date: 2022-06-22 16:30:00 +0900
 categories: Work
 tags: [RUNTEQ]
-image: /images/github.jpg
+image: /images/github.PNG
 ---
 
 Webエンジニア転職を目指してプログラミングスクールRUNTEQに入学し、はや4か月が経過しました。私は8か月のコースで入学したのでちょうど折り返し地点になります。
@@ -13,6 +13,8 @@ Webエンジニア転職を目指してプログラミングスクールRUNTEQ�
 
 ## 前半4か月でやったこと
 ### rails newを19回
+
+![](/images/github.PNG)
 
 RUNTEQの主なカリキュラムは、用意されている色んなRailsアプリに機能を追加したり、バグを修正したり、テストを書いたりというものになります。
 
