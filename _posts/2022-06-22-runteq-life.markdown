@@ -1,7 +1,7 @@
 ---
 layout: post
 title: "RUNTEQ生活折り返し！ 前半4か月でやったことまとめ"
-date: 2022-06-22 18:30:00 +0900
+date: 2022-06-22 16:30:00 +0900
 categories: Work
 tags: [RUNTEQ]
 image: /images/rantekun.jpg
