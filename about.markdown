@@ -17,7 +17,7 @@ SNS
 - Zenn　[@yoiyoicho](https://zenn.dev/yoiyoicho)
 
 個人開発
-- [リプ返つらい | Twitterリプライ自動生成サービス](https://replytsurai.onrender.com/)
+- [リプ返つらい Twitterリプライ自動生成サービス](https://replytsurai.onrender.com/)
 
 趣味
 
