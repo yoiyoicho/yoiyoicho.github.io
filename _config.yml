@@ -70,7 +70,6 @@ plugins:
   - jekyll-sitemap
   - jekyll-paginate
   - jekyll-spaceship
-  - jekyll-amazon
 
 # Exclude from processing.
 # The following items will not be processed, by default.
