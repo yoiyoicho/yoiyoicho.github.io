@@ -90,3 +90,6 @@ plugins:
 #   - vendor/cache/
 #   - vendor/gems/
 #   - vendor/ruby/
+
+gems:
+  - jekyll-amazon
