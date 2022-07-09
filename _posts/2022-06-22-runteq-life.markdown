@@ -4,7 +4,7 @@ title: "RUNTEQ生活折り返し！ 前半4か月でやったことまとめ"
 date: 2022-06-22 16:30:00 +0900
 categories: Work
 tags: [RUNTEQ]
-image: /images/github.PNG
+image: /images/ogp.jpg
 ---
 
 Webエンジニア転職を目指してプログラミングスクールRUNTEQに入学し、はや4か月が経過しました。私は8か月のコースで入学したのでちょうど折り返し地点になります。
