@@ -46,6 +46,8 @@ JavaScriptのオブジェクト指向はクラスベースではなく、プロ�
 
 <a href="https://www.amazon.co.jp/gp/product/4774142042?ie=UTF8&psc=1&linkCode=li3&tag=yoiyoicho-22&linkId=14c905e034ad5b3c6530af2004a14988&language=ja_JP&ref_=as_li_ss_il" target="_blank"><img border="0" src="//ws-fe.amazon-adsystem.com/widgets/q?_encoding=UTF8&ASIN=4774142042&Format=_SL250_&ID=AsinImage&MarketPlace=JP&ServiceVersion=20070822&WS=1&tag=yoiyoicho-22&language=ja_JP" ></a><img src="https://ir-jp.amazon-adsystem.com/e/ir?t=yoiyoicho-22&language=ja_JP&l=li3&o=9&a=4774142042" width="1" height="1" border="0" alt="" style="border:none !important; margin:0px !important;" />
 
+<a href="https://www.amazon.co.jp/gp/product/4797393165?ie=UTF8&psc=1&linkCode=li3&tag=yoiyoicho-22&linkId=c2ef987f29c5ea78a2b45c75f7fe43aa&language=ja_JP&ref_=as_li_ss_il" target="_blank"><img border="0" src="//ws-fe.amazon-adsystem.com/widgets/q?_encoding=UTF8&ASIN=4797393165&Format=_SL250_&ID=AsinImage&MarketPlace=JP&ServiceVersion=20070822&WS=1&tag=yoiyoicho-22&language=ja_JP" ></a><img src="https://ir-jp.amazon-adsystem.com/e/ir?t=yoiyoicho-22&language=ja_JP&l=li3&o=9&a=4797393165" width="1" height="1" border="0" alt="" style="border:none !important; margin:0px !important;" />
+
 Vue.jsをもうちょい深掘りしておくかというのと、ポートフォリオ作るうちにセキュリティに興味が出てきたのでよさげな本をポチ。
 
 9月もがんばっていきましょう！
