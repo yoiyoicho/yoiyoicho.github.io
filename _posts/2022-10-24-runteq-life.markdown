@@ -16,9 +16,9 @@ RUNTEQの8か月のコースを終え、先日卒業しました。
 ## 後半4か月でやったこと
 ### ポートフォリオ「トリコミ」のリリース
 
-サービスURL：https://www.torikomi.net
+サービスURL：[https://www.torikomi.net](https://www.torikomi.net)
 
-開発の経緯：https://qiita.com/yoiyoicho/items/21cbc56b7d7c1be92524
+開発の経緯：[https://qiita.com/yoiyoicho/items/21cbc56b7d7c1be92524](https://qiita.com/yoiyoicho/items/21cbc56b7d7c1be92524)
 
 開発期間3か月。持てうる力を出し切ったのでもう悔いはないです。
 
@@ -53,7 +53,7 @@ Macのプレビューで赤枠等の飾りを入れて、Fotorでトリミング
 
 ### Zennにブログ記事を書きまくる
 
-https://zenn.dev/yoiyoicho
+[https://zenn.dev/yoiyoicho](https://zenn.dev/yoiyoicho)
 
 あと後半4か月でやったことといえば、技術記事。週1更新を目標に、ちくちくZennにポートフォリオ開発から学んだことをまとめていきました。
 
